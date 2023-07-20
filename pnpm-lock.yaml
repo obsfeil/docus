@@ -59,7 +59,7 @@ devDependencies:
     version: 2.7.0(rollup@3.26.2)
   '@nuxt/devtools':
     specifier: npm:@nuxt/devtools-edge@latest
-    version: /@nuxt/devtools-edge@0.6.7-28157833.41752b2(nuxt@3.6.3)(rollup@3.26.2)
+    version: /@nuxt/devtools-edge@0.6.7-28162910.57b9ca5(nuxt@3.6.3)(rollup@3.26.2)
   '@nuxt/eslint-config':
     specifier: ^0.1.1
     version: 0.1.1(eslint@8.45.0)
@@ -68,7 +68,7 @@ devDependencies:
     version: 1.0.0-rc.1(rollup@3.26.2)
   '@nuxt/kit':
     specifier: npm:@nuxt/kit-edge@latest
-    version: /@nuxt/kit-edge@3.6.4-28158720.fed58681(rollup@3.26.2)
+    version: /@nuxt/kit-edge@3.6.5-28163146.03abb6aa(rollup@3.26.2)
   '@nuxtjs/algolia':
     specifier: ^1.8.0
     version: 1.8.0(rollup@3.26.2)(vue@3.3.4)
@@ -1330,8 +1330,8 @@ packages:
   /@nuxt/devalue@2.0.2:
     resolution: {integrity: sha512-GBzP8zOc7CGWyFQS6dv1lQz8VVpz5C2yRszbXufwG/9zhStTIH50EtD87NmWbTMwXDvZLNg8GIpb1UFdH93JCA==}
 
-  /@nuxt/devtools-edge@0.6.7-28157833.41752b2(nuxt@3.6.3)(rollup@3.26.2):
-    resolution: {integrity: sha512-8LuZLmy65F31OcroMpIZgKqFtGyVoB7uRy5h7ezcDyJaBfNKYIqNQ6yo8hkhRYF/Cuwi6CSFsykSKt0OsthE/w==}
+  /@nuxt/devtools-edge@0.6.7-28162910.57b9ca5(nuxt@3.6.3)(rollup@3.26.2):
+    resolution: {integrity: sha512-JYbRTE/93kWFB09SMrksLvWns96AJTlW1yC1Pk01bt/qE9BLRElBw2MXilqy9eD23A2bjVAS3G2bqiggShkAjw==}
     hasBin: true
     peerDependencies:
       nuxt: ^3.6.1
@@ -1340,8 +1340,8 @@ packages:
       vite:
         optional: true
     dependencies:
-      '@nuxt/devtools-kit': /@nuxt/devtools-kit-edge@0.6.7-28157833.41752b2(nuxt@3.6.3)(rollup@3.26.2)
-      '@nuxt/devtools-wizard': /@nuxt/devtools-wizard-edge@0.6.7-28157833.41752b2
+      '@nuxt/devtools-kit': /@nuxt/devtools-kit-edge@0.6.7-28162910.57b9ca5(nuxt@3.6.3)(rollup@3.26.2)
+      '@nuxt/devtools-wizard': /@nuxt/devtools-wizard-edge@0.6.7-28162910.57b9ca5
       '@nuxt/kit': 3.6.3(rollup@3.26.2)
       birpc: 0.2.12
       boxen: 7.1.1
@@ -1384,8 +1384,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@nuxt/devtools-kit-edge@0.6.7-28157833.41752b2(nuxt@3.6.3)(rollup@3.26.2):
-    resolution: {integrity: sha512-HzwpYFMiXJ0i/9PTR49rO5aTTM1ZADeaTxGkbAU1rG/bIr0Q+J8Bx3fSetp3qs6th7qf6RSYAhRs/gRd1zySbA==}
+  /@nuxt/devtools-kit-edge@0.6.7-28162910.57b9ca5(nuxt@3.6.3)(rollup@3.26.2):
+    resolution: {integrity: sha512-hTe5XCFw75DBszBYPHLwLDVEOjxrdpVUEzPTOFGHjHqpmuN4OREO7d8eFGFxuEQwJJpw5gKMOivv3Uh8Rxw0FQ==}
     peerDependencies:
       nuxt: ^3.6.1
       vite: '*'
@@ -1402,8 +1402,8 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/devtools-wizard-edge@0.6.7-28157833.41752b2:
-    resolution: {integrity: sha512-OOHhQ4Sb91T8Rez/cxwnkr7X8/k9TJu6Df5SbXDCk+5xKa+ivlj6E3Qil3KTMVsFjrJa976L645dH5OJ2bLYrg==}
+  /@nuxt/devtools-wizard-edge@0.6.7-28162910.57b9ca5:
+    resolution: {integrity: sha512-ZeaVnjbGClp2/hu3PAoa7fnKHTYAnogBJVv/bIsmpVYfl77V3Ps+0hcMiGE1t27OI8fhvc8bxXUrpYck6Oc0oQ==}
     hasBin: true
     dependencies:
       consola: 3.2.3
@@ -1455,11 +1455,11 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/kit-edge@3.6.4-28158720.fed58681(rollup@3.26.2):
-    resolution: {integrity: sha512-3UNEdEm2s1anPNxMjdpqEzGG00vP71r0cta4tvlg6FqDiDfWB9HLbv/wy+YvCz2XPWAjMHyE7qQCKhGctvM6KA==}
+  /@nuxt/kit-edge@3.6.5-28163146.03abb6aa(rollup@3.26.2):
+    resolution: {integrity: sha512-4ArjVSnPuGBBPNureclNUWQ0p1m/EYsctHE3MI4qL6mBQaxzMoZpimRAC7O1O8DIR1osY9gIzaM9ApOQ5VvZVg==}
     engines: {node: ^14.18.0 || >=16.10.0}
     dependencies:
-      '@nuxt/schema': /@nuxt/schema-edge@3.6.4-28158720.fed58681(rollup@3.26.2)
+      '@nuxt/schema': /@nuxt/schema-edge@3.6.5-28163146.03abb6aa(rollup@3.26.2)
       c12: 1.4.2
       consola: 3.2.3
       defu: 6.1.2
@@ -1506,8 +1506,8 @@ packages:
       - rollup
       - supports-color
 
-  /@nuxt/schema-edge@3.6.4-28158720.fed58681(rollup@3.26.2):
-    resolution: {integrity: sha512-GeHZZ4ZceDgOUqsr3tuEPkJJaZdOpFy5vecsnTxJj9sXnhIjVbwBUHFXCofObCm+SxnCq+4yIDPMgSNHwYshbA==}
+  /@nuxt/schema-edge@3.6.5-28163146.03abb6aa(rollup@3.26.2):
+    resolution: {integrity: sha512-iIOId87WAVvqiAp3Noi+WpnFTrvI+qu5IkW53kquONj05lYze2OqExF781vyNFMzK28M0rxa5zAGlKvlBK/+8g==}
     engines: {node: ^14.18.0 || >=16.10.0}
     dependencies:
       defu: 6.1.2
@@ -7530,7 +7530,7 @@ packages:
       levn: 0.3.0
       prelude-ls: 1.1.2
       type-check: 0.3.2
-      word-wrap: 1.2.3
+      word-wrap: 1.2.4
     dev: true
 
   /optionator@0.9.3:
@@ -10565,8 +10565,8 @@ packages:
       execa: 5.1.1
     dev: true
 
-  /word-wrap@1.2.3:
-    resolution: {integrity: sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==}
+  /word-wrap@1.2.4:
+    resolution: {integrity: sha512-2V81OA4ugVo5pRo46hAoD2ivUJx8jXmWXfUkY4KFNw0hEptvN0QfH3K4nHiwzGeKl5rFKedV48QVoqYavy4YpA==}
     engines: {node: '>=0.10.0'}
     dev: true
 
